@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eagan Construction</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+</header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand d-lg-none me-auto" href="#">
+                <img src="img/banner_logo.png" alt="logo" width="160" height="40" class="d-inline-block align-text-middle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <a class="navbar-brand d-none d-lg-inline-block" href="#">
+                        <img src="img/banner_logo.png" alt="logo" width="160" height="40" class="ms-3">
+                    </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Carousel Section -->
+<div class="logo-container">
+    <img src="img/banner_logo.png" alt="Logo" id="logo" class="img-fluid rounded fade-in-image" data-mdb-animation="fade-in">
+</div>
+  
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/house1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/house2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/house3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/house4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/kitchen1.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-secondary">
+    <div class="container">
+        <h2 class="text-center display-5">About Us</h2>
+        <p class="text-center">At Eagan Construction, we pride ourselves on transforming your vision into reality with exceptional craftsmanship and attention to detail. Specializing in small homes, additions, and customizations, our team of experienced professionals is dedicated to delivering projects that not only meet but exceed your expectations.</p>
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-12 mb-2">
+                <i class="bi bi-house about-icon"></i>
+                <h3>Small Homes</h3>
+                <p>We understand the unique challenges and opportunities that come with building small homes. Our designs maximize space, functionality, and comfort, creating cozy and efficient living environments that cater to modern lifestyles. From initial design to final construction, we ensure every detail is meticulously planned and executed.</p>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-2">
+                <i class="bi bi-houses-fill about-icon"></i>
+                <h3>Additions</h3>
+                <p>Whether you're looking to expand your living space with an extra room, a new floor, or an outdoor living area, we bring your ideas to life with precision and care. Our team works closely with you to seamlessly integrate additions that complement your existing structure, enhancing both aesthetics and functionality.</p>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-2">
+                <i class="bi bi-buildings about-icon"></i>
+                <h3>Customizations</h3>
+                <p>Every project we undertake is tailored to the specific needs and preferences of our clients. From custom cabinetry and built-ins to unique architectural features, we provide bespoke solutions that reflect your personal style and enhance the character of your home. Our commitment to quality craftsmanship ensures that every customization is executed with the utmost precision.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-center display-5 mb-4">Our Projects</h2>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4">
+                <div class="card">
+                    <img src="img/Image1.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title text-center display-5">Renovations</h5>
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                                View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 mb-4">
+                <div class="card">
+                    <img src="img/Image2.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h4 class="card-title text-center display-5">New Contruction</h4>
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                                View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Renovations Modal -->
+  <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Renovations</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Carousel -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Image4.png" class="d-block w-100" alt="Renovations">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Image5.png" class="d-block w-100" alt="Renovations">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Image6.png" class="d-block w-100" alt="Renovations">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- End of Carousel -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+    <!-- New Construction -->
+  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">New Construction</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Carousel -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Image2.png" class="d-block w-100" alt="New Construction">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Image1.png" class="d-block w-100" alt="New Construction">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Image3.png" class="d-block w-100" alt="New Construction">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- End of Carousel -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonial Section -->
+<section id="services" class="py-5 bg-secondary text-white">
+    <div class="container my-5">
+        
+        <h2 class="text-center display-5 mb-4">Testimonials</h2>
+        <div class="row">
+            <!-- Testimonial 1 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="testimonial-card">
+                    <p class="fst-italic">"We couldn't be happier with the small home Eagan Construction built for us. From the initial design to the final touches, their attention to detail and commitment to quality were evident in every step. The team was professional, courteous, and truly understood our vision. Our new home is not only beautiful but also highly functional and cozy. We highly recommend Eagan Construction for any construction project!"</p>
+                    <div class="testimonial-name fw-bold">Jane Smith</div>
+                    <div class="testimonial-project">Small Home Construction</div>
+                </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="testimonial-card">
+                    <p class="fst-italic">"Eagan Construction did an outstanding job on our home addition. We needed more space for our growing family, and they seamlessly integrated a new living area that matches our existing home perfectly. The process was smooth and stress-free, and the team was always available to answer our questions and address any concerns. The quality of their work exceeded our expectations, and we are thrilled with the result."</p>
+                    <div class="testimonial-name fw-bold">John and Mary Johnson</div>
+                    <div class="testimonial-project">Home Addition</div>
+                </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="testimonial-card">
+                    <p class="fst-italic">"We hired Eagan Construction to remodel our kitchen, and the experience was fantastic from start to finish. They worked closely with us to design a space that suits our style and needs, and the craftsmanship is top-notch. The custom cabinetry and unique features they incorporated truly make our kitchen one-of-a-kind. The team was professional, reliable, and a pleasure to work with. We love our new kitchen and highly recommend Eagan Construction for any custom project."</p>
+                    <div class="testimonial-name fw-bold">Sarah and Mike Davis</div>
+                    <div class="testimonial-project">Custom Kitchen Remodel</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- New Contact Section -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center display-5 mb-4">Contact Us <i class="bi bi-envelope"></i></h2>
+        <form action="send_email.php" method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white">
+    <div class="container text-center">
+        <p>&copy; 2024 Eagan Construction. All rights reserved.</p>
+    </div>
+</footer>
+
+    <!-- Bootstrap / JavaScript Libraries -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- CDN BACKUPS -->
+    <!-- <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"
+    ></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    
+</body>
+</html>
